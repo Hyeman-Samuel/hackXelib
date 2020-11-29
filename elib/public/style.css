@@ -1,0 +1,21 @@
+
+.c {color: #1f0074 !important;}
+.b {background-color: #1f0074 !important;}
+.bord {border: solid 1px #1f0074 !important;}
+.btn-lib {color:white !important; background-color: #1f0074 !important; cursor: pointer;}
+.btn-lib:hover {color:white !important; background-color: #322c9b !important;}
+.btn-outline-lib {color:#1f0074 !important; background-color: #fff  !important; cursor: pointer; border: solid 1px #1f0074 !important;}
+.btn-outline-lib:hover{color:#fff !important; background-color: #1f0074  !important;}
+.d-sm{
+    display: inline;
+}
+.cursor{cursor: pointer;}
+@media screen and (max-width:992px){
+    .d-sm{
+        display: none;
+        opacity: 0;
+    }
+    .small{
+        font-size: 15px !important;
+    }
+}
